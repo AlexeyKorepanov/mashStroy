@@ -12,6 +12,10 @@ public class Norm extends javax.swing.JFrame {
     public Norm() {
         
         initComponents();
+        
+        
+        
+        
     }
   
     @SuppressWarnings("unchecked")
