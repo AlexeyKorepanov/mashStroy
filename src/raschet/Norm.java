@@ -18,7 +18,11 @@ public class Norm extends javax.swing.JFrame {
         
     }
   
+<<<<<<< HEAD
    // @SuppressWarnings("unchecked")
+=======
+    @SuppressWarnings("unchecked")
+>>>>>>> 7c4fc81 (Update Norm.java)
     
     private void initComponents() {
 
