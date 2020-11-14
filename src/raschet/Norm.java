@@ -18,7 +18,7 @@ public class Norm extends javax.swing.JFrame {
         
     }
   
-    @SuppressWarnings("unchecked")
+   // @SuppressWarnings("unchecked")
     
     private void initComponents() {
 
@@ -60,10 +60,8 @@ public class Norm extends javax.swing.JFrame {
         setTitle("Нормировка");
 
         frVvod.setToolTipText("разрешен только вод цифр и \",\" \".\"");
-        frVvod.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                frVvodActionPerformed(evt);
-            }
+        frVvod.addActionListener((java.awt.event.ActionEvent evt) -> {
+            frVvodActionPerformed(evt);
         });
 
         frRez.setEditable(false);
@@ -75,10 +73,8 @@ public class Norm extends javax.swing.JFrame {
         jLabel3.setText("Фрезеровка");
 
         tokVvod.setToolTipText("разрешен только вод цифр и \",\" \".\"");
-        tokVvod.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tokVvodActionPerformed(evt);
-            }
+        tokVvod.addActionListener((java.awt.event.ActionEvent evt) -> {
+            tokVvodActionPerformed(evt);
         });
 
         tokRez.setEditable(false);
@@ -86,10 +82,8 @@ public class Norm extends javax.swing.JFrame {
         jLabel4.setText("токарка");
 
         yVvod.setToolTipText("разрешен только вод цифр и \",\" \".\"");
-        yVvod.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                yVvodActionPerformed(evt);
-            }
+        yVvod.addActionListener((java.awt.event.ActionEvent evt) -> {
+            yVvodActionPerformed(evt);
         });
 
         yRez.setEditable(false);
@@ -107,10 +101,8 @@ public class Norm extends javax.swing.JFrame {
         jLabel7.setText("общая стоимость услуги");
 
         obs.setText("вычеслить");
-        obs.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                obsActionPerformed(evt);
-            }
+        obs.addActionListener((java.awt.event.ActionEvent evt) -> {
+            obsActionPerformed(evt);
         });
 
         obRez.setEditable(false);
@@ -199,7 +191,7 @@ public class Norm extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
     private void frVvodActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_frVvodActionPerformed
     Double a , b ;
